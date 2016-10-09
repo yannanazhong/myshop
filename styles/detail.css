@@ -1,0 +1,33 @@
+/*详情页--图片*/
+#jnProitem{float: left;width: 312px;height: 384px;position: relative;}
+.jqzoomWrap{border: 1px solid #bbb;overflow: hidden;}
+.jqzoomWrap img{display: block;width: 310px;height: 270px;}
+#jnProitem span{display: block;padding: 5px 0;text-align: center;width: 150px;height: 18px;line-height: 18px;border-radius: 15px;border: 1px solid #bbb;font-size: 14px;color: #bbb;cursor: default;position: absolute;left: 50%;margin-left: -75px;margin-top: 5px;}
+#jnProitem s{font-family: "taobao";margin-right: 3px;}
+#jnProitem ul{height: 80px;margin-top: 40px;}
+#jnProitem ul li{float: left;margin-right: 13px;}
+#jnProitem ul li:last-child{margin-right: 0;}
+#jnProitem li img{width: 66px;height: 60px;padding: 1px;background: #eee;}
+#jnProitem ul li img:hover{background: #999;}
+/*详情页--价格*/
+#jnDetails{float: right;width: 468px;height: 384px;}
+.contentWrap{line-height: 24px;}
+.contentWrap s{text-decoration: line-through;}
+.contentWrap .hot{font-size: 24px;color: red;font-weight: bold;}
+.contentWrap .color{height: 50px;padding: 5px 0;}
+.contentWrap .color li{width: 50px;height: 50px;float: left;background-color: #FFF5CC;margin-right: 10px;text-indent: -2000em;cursor: pointer;}
+.size{margin: 5px 0;}
+.size a{display: inline-block;width: 10px;text-align: center;padding: 3px 6px;border: 1px solid #000;color: #666;}
+.btn{margin-top: 5px;}
+.btn button{height: 34px;line-height: 34px;background-color: #F34D0B;color: #fff;box-shadow:1px 1px 1px #666;border: 0 none;font-size: 14px;letter-spacing: 1px;font-weight: bold;}
+.btn button:active{box-shadow: -1px -1px 1px #999;}
+.btn em{font-family: "taobao";margin-right: 2px;}
+/*详情页--介绍*/
+#jnTab{float: left;width: 790px;margin: 10px 0 0;height: 230px;border: 1px solid #0C1A27;overflow: hidden;}
+.tabMenu{width: 790px;background-color: #0C1A27;height: 28px;line-height: 24px;}
+.tabMenu li{float: left;padding: 0 4px;}
+.tabMenu li a{display: block;padding: 2px 6px;}
+.tabMenu .current{background-color: #fff;}
+.tabMenu .current a{color: #666;}
+.tabBox div{padding: 10px 0 0 10px;display: none;}
+.tabBox .current{display: block;}

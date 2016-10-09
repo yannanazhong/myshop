@@ -1,0 +1,34 @@
+
+/*内容--广告*/
+#jnImageroll{float: left;width: 550px;height: 320px;margin: 0 11px 0 0;overflow: hidden;position: relative;}
+#jnImageroll img{display: block;}
+#JS_imgWrap{width: 3300px;position: absolute;}
+#imgAd{position: absolute;width: 550px;height: 42px;bottom: 0;left: 0;background-color: rgba(0,0,0,.2);}
+#jnImageroll li{float: left;}
+#imgAd li a{display: inline-block;width: 79px;height: 32px;padding: 5px 15px;margin-right: 1px;text-align: center;}
+#imgAd li a:last-child{width: 80px;margin-right: 0;}
+#imgAd .selected{background-color: rgba(255,255,255,.5);}
+#imgAd li a em{cursor: pointer;display: block;font-size: 14px;line-height: 16px;width: 79px;}
+/*内容--通知*/
+#jnNotice{float: left;height: 321px;width: 230px;}
+.jnNoticeInfo{border: 1px solid #dfdfdf;width: 228px;height: 133px;}
+.jnNoticeInfo h2{height: 23px;line-height: 23px;border-bottom: 1px solid #dfdfdf;text-indent: 12px;font-size: 14px;}
+.jnNoticeInfo ul{padding: 4px 0 0 12px;position: relative;}
+.jnNoticeInfo li{line-height: 20px;}
+.jnNoticeInfo li a{color: #666;}
+.jnNoticeInfo li a:hover{color: #008cd7;}
+#tooltip{position: absolute;border: 1px solid #333;background: #0C1A27;padding: 2px;color: #fff;font-size: 12px;}
+/*内容--品牌*/
+#jnBrand{float: left;height: 230px;width: 790px;margin: 10px 0 0;}
+#jnBrandTab{border-bottom: 1px solid #e4e4e4;width: 790px;height: 29px;line-height: 29px;}
+#jnBrandTab h2{font-size: 14px;width: 100px;float: left;}
+#jnBrandTab ul{float: right;}
+#jnBrandTab li{float: left;margin: 0 10px 0 0;}
+#jnBrandTab li a{display: inline-block;background-color: #e4e4e4;color: #000;line-height: 20px;padding: 0 10px;}
+#jnBrandTab .current{background-color: #fa5889;color: #fff;outline: 0 none;}
+#jnBrandContent{width: 780px;height: 188px;margin: 8px 5px;position: relative;overflow: hidden;}
+#jnBrandList{width: 3200px;position: absolute;}
+#jnBrandList li{width: 185px;height: 188px;padding: 0 5px;float: left;position: relative;}
+#jnBrandList li>a{display: block;width: 185px;height: 188px;}
+#jnBrandList span{width: 185px;height: 24px;background:rgba(255,255,255,.3);color: #666;font-size: 14px;text-align: center;line-height: 24px;position: absolute;left: 5px;bottom: -24px;}
+/*#jnBrandList li:hover span{bottom: 0;}*/
